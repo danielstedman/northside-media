@@ -136,7 +136,7 @@ img {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://images.squarespace-cdn.com/content/v1/528b7c6be4b02b76bd0f8ab7/1473451529184-8SSZG2DZCS3NTLWY4VTD/NSide16_Music_06102016_GrandmasterFlash_McCarrenPark_ColeGiordano-701085.jpg');
+    background-image: url('images/festival/NSide16_Music_06102016_GrandmasterFlash_McCarrenPark_ColeGiordano-701085.jpg');
     background-size: cover;
     background-position: center 40%;
     filter: grayscale(100%) brightness(0.45);
