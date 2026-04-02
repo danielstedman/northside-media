@@ -271,6 +271,116 @@ document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeLightbox();
 });
 
+// Photo Library
+const libraryPhotos = [
+    "images/festival/NSide16_Music_06102016_GrandmasterFlash_McCarrenPark_ColeGiordano-701039.jpg",
+    "images/festival/04_nside2016_hinds_mccarrenpark_stephanieaugello.jpg",
+    "images/festival/15_nside2016_brianwilson_mccarrenpark_stephanieaugello.jpg",
+    "images/festival/20160609_BM_SweetCrude_BrooklynBowl_EbruYildiz_12.jpg",
+    "images/festival/bkmag_nside_kelseymitchell_30.jpg",
+    "images/festival/bkmag_nside_kelseymitchell_38.jpg",
+    "images/festival/bkmag_nside_sunflowerbean_kelseymitchell_72.jpg",
+    "images/festival/Friday-+The+Very+Best+at+McCarren+Park.jpg",
+    "images/festival/ft_vLgbmTsmHVClCohTuRbggLfXloq_IknKVVTKRLLQ.jpeg",
+    "images/festival/IMG_1855.jpg",
+    "images/festival/IMG_9661.jpg",
+    "images/festival/Northside+Saturday+-+lg-224.jpg",
+    "images/festival/NSide16_Music_06092016_Subhumans_StVitus_ColeGiordano-701342.jpg",
+    "images/festival/NSide16_Music_06102016_GrandmasterFlash_McCarrenPark_ColeGiordano-701260.jpg",
+    "images/festival/NSide2016_Innovation_june8th2016_Dylan+Johnson-25.JPG",
+    "images/festival/NSide2016_Innovation_june8th2016_Dylan+Johnson-33.JPG",
+    "images/festival/nside2016_music_06092016_mccarren_wolfparade_020.jpg",
+    "images/festival/NSide2016_Music_Babys+All+Right_Diet+Cig_Childbirth_Collen-Green_june9th2016_Dylan-Johnson-14.JPG",
+    "images/festival/NSide2016_Music_Babys+All+Right_Diet+Cig_Childbirth_Collen-Green_june9th2016_Dylan-Johnson-29.JPG",
+    "images/festival/NSide2016_Music_Grandmaster+Flash_june9th2016_Dylan-Johnson-1.JPG",
+    "images/festival/NSide2016_Music_Grandmaster+Flash_june9th2016_Dylan-Johnson-27.JPG",
+    "images/festival/NSide2016_Music_Palisades_Two+Inch+Astronaut-The+World+is+a+Beautiful+Place+and+I+am+Ready+to+Die+_june9th2016_Dylan-Johnson-13.JPG",
+    "images/festival/NSide2016_Shea+Stadium_Drella-Sharkmuffin_Aye+Nako_Childbirth_june8th2016_Dylan+Johnson-31.JPG",
+    "images/festival/W7kgXt3Ux8Wh6k_tfvdDp79Snwy8Wa6xj-K0GgBaRk4.jpeg",
+    "images/festival/8472wolfenson.JPG",
+    "images/festival/0124volo.jpg",
+    "images/summerscreen/bkmag_summerscreen_7_13_kelseymitchell22+(1).JPG",
+    "images/summerscreen/bkmag_summerscreen_7_13_kelseymitchell40+(1).JPG",
+    "images/summerscreen/bkmag_summerscreen_7-6-16_kelseymitchell_28.JPG",
+    "images/summerscreen/IMG_6916.JPG",
+    "images/summerscreen/IMG_7013.JPG",
+    "images/summerscreen/IMG_7329.jpg",
+    "images/summerscreen/IMG_7412+(1).jpg",
+    "images/summerscreen/IMG_7434.jpg",
+    "images/summerscreen/SS_Photo02.jpg",
+    "images/summerscreen/Summerscreen+-+Brooklyn+Mag+-+Crowd+Shots+(43+of+46).jpg",
+    "images/summerscreen/Summerscreen+-+Brooklyn+Mag+(62+of+81).jpg",
+    "images/taste-talks/-7.jpg",
+    "images/taste-talks/-7.8.jpg",
+    "images/taste-talks/14937122924_ff17ae7386_o.jpg",
+    "images/taste-talks/IMG_1735.jpg",
+    "images/taste-talks/insta+(116).jpg",
+    "images/taste-talks/insta+(182).jpg",
+    "images/taste-talks/Taste+Talk+-+Dylan+Johnson-56.jpg",
+    "images/taste-talks/Taste+Talks+BBQ+-+print-1.JPG",
+    "images/taste-talks/Taste+Talks+BBQ+-+print-15.JPG",
+    "images/taste-talks/Taste+Talks+BBQ+-+print-27.JPG",
+    "images/taste-talks/Taste+Talks+BBQ+-+print-33.JPG",
+    "images/taste-talks/TasteTalks2015_9-12_Kinfolk+90_La+Brea+Food+Truck_Max+Branigan_032.jpg",
+    "images/taste-talks/TT_MotherofPearl_LizClayman_091215_002.jpg",
+    "images/taste-talks/TT_MotherofPearl_LizClayman_091215_011.jpg",
+    "images/taste-talks/TT_MotherofPearl_LizClayman_091215_035.jpg",
+    "images/taste-talks/TT_MotherofPearl_LizClayman_091215_203.jpg",
+    "images/creative/0054volo.jpg",
+    "images/creative/0119volo.jpg",
+    "images/creative/0202volo.jpg",
+    "images/creative/0211volo.jpg",
+    "images/creative/1.jpg",
+    "images/creative/18-1.jpg",
+    "images/creative/2.jpg",
+    "images/creative/6-1.jpg",
+    "images/creative/6.jpg",
+    "images/creative/7.jpg",
+    "images/creative/8.jpg",
+    "images/creative/9145wolfenson.JPG",
+    "images/creative/9354wolfenson.JPG",
+    "images/creative/brianwilson_janebruce.jpg",
+    "images/creative/Northside-Bleached-small-3.jpg",
+    "images/creative/Northside-Bleached-small-44.jpg",
+    "images/creative/NS_web_images2.png",
+    "images/creative/NS_web_images4.png",
+    "images/creative/NS_web_images6.png",
+    "images/history/history-2014-expansion.jpeg",
+    "images/history/history-bam-partnership.jpeg",
+    "images/history/history-festival-2009.jpeg",
+    "images/history/history-summerscreen.png",
+    "images/history/Screen+Shot+2014-03-07+at+11.43.14+PM.png",
+    "images/people/131109_Alex_0373.jpg",
+    "images/people/Daniel-Stedman-Northside-New-York-Times-Arts-Cover.png",
+    "images/people/Scott.JPG"
+];
+
+const photoLibraryWall = document.getElementById('photo-library-wall');
+if (photoLibraryWall) {
+    const shuffledPhotos = shuffle([...libraryPhotos]);
+    shuffledPhotos.forEach(src => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = "Northside Media";
+        img.loading = "lazy";
+        img.addEventListener('click', () => openLightbox(img.src));
+        photoLibraryWall.appendChild(img);
+    });
+}
+
+// Photo library toggle
+const photoLibWrapper = document.getElementById('photo-library-wrapper');
+const photoLibToggle = document.getElementById('photo-library-toggle');
+if (photoLibToggle) {
+    photoLibToggle.addEventListener('click', () => {
+        const expanded = photoLibWrapper.classList.toggle('expanded');
+        photoLibToggle.textContent = expanded ? 'Show Less' : 'Show All Photos';
+        if (!expanded) {
+            photoLibWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+}
+
 // Scroll-triggered fade-in
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
