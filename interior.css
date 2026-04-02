@@ -1,250 +1,393 @@
-/* ===== Interior Page Styles ===== */
+/* ===== Shared Interior Styles ===== */
 
-/* Hero */
-.interior-hero {
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.back-link {
+    position: fixed;
+    top: 20px;
+    left: 24px;
+    z-index: 100;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #fff;
+}
+
+.interior-footer {
+    text-align: center;
+    padding: 40px 24px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    background: #3c342f;
+}
+
+.interior-footer a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.interior-footer a:hover {
+    color: #fff;
+}
+
+/* ================================================
+   FESTIVAL PAGE — Poster Style
+   ================================================ */
+
+.festival-page {
+    background: #1a1714;
+    color: #fff;
+}
+
+.festival-hero {
     position: relative;
-    height: 50vh;
-    min-height: 360px;
+    height: 60vh;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
 
-.interior-hero-bg {
+.festival-hero-bg {
     position: absolute;
     inset: 0;
     background-size: cover;
     background-position: center 40%;
-    filter: grayscale(100%) brightness(0.4);
+    filter: grayscale(100%) brightness(0.35);
 }
 
-.interior-hero-overlay {
+.festival-hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
 }
 
-.interior-hero-content {
+.festival-hero-content {
     position: relative;
     z-index: 1;
     text-align: center;
-    color: #fff;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
-.interior-hero-content h1 {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 800;
-    letter-spacing: 6px;
+.festival-hero-content h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.festival-hero-content p {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.45);
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* Lineup Wall */
+.festival-lineup-wall {
+    padding: 60px 0;
+}
+
+.poster-year {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    padding: 0 32px;
+    text-align: center;
+}
+
+.poster-year:last-child {
+    margin-bottom: 40px;
+}
+
+.poster-year-header {
     margin-bottom: 12px;
 }
 
-.interior-hero-content p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.5);
+.poster-year-num {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #c9a96e;
+    margin-bottom: 4px;
 }
 
-/* Intro */
-.interior-intro {
-    padding: 64px 0;
+.poster-year-meta {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.poster-note {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.4);
+    max-width: 600px;
+    margin: 0 auto 24px;
+    line-height: 1.7;
+}
+
+.poster-names {
+    line-height: 1.2;
+}
+
+.poster-names span {
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.poster-names span::after {
+    content: " \00b7 ";
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.poster-names span:last-child::after {
+    content: "";
+}
+
+.tier1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.tier2 {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.tier3 {
+    font-size: clamp(0.6rem, 1.2vw, 0.78rem);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 1.5px;
+}
+
+/* ================================================
+   TASTE TALKS PAGE — Simple & Clean
+   ================================================ */
+
+.tt-page {
+    background: #fff;
+    color: #2a2521;
+}
+
+.tt-page .back-link {
+    color: rgba(60, 52, 47, 0.4);
+}
+
+.tt-page .back-link:hover {
+    color: #3c342f;
+}
+
+.tt-hero {
+    text-align: center;
+    padding: 120px 32px 60px;
     background: #fff;
 }
 
-.interior-intro p {
-    max-width: 720px;
+.tt-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: #3c342f;
+    margin-bottom: 12px;
+}
+
+.tt-tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #8a7a6e;
+    margin-bottom: 8px;
+}
+
+.tt-sub {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c9a96e;
+}
+
+.tt-intro {
+    padding: 0 0 64px;
+}
+
+.tt-intro p {
+    max-width: 680px;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 2;
     color: #6b5f56;
     font-weight: 300;
 }
 
-/* Lineup Section */
-.lineup-section {
-    padding: 40px 0 100px;
-    background: #f7f4f0;
+.tt-years {
+    padding: 0 0 80px;
 }
 
-.lineup-year {
-    max-width: 800px;
-    margin: 0 auto 64px;
-    padding-bottom: 64px;
+.tt-year {
+    max-width: 680px;
+    margin: 0 auto 56px;
+    padding-bottom: 56px;
     border-bottom: 1px solid #ece6de;
 }
 
-.lineup-year:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
+.tt-year:last-child {
     border-bottom: none;
 }
 
-.lineup-header {
-    display: flex;
-    align-items: baseline;
-    gap: 16px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-}
-
-.lineup-header h2 {
+.tt-year h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     color: #3c342f;
-    line-height: 1;
+    margin-bottom: 4px;
 }
 
-.lineup-meta {
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #c9a96e;
-}
-
-.lineup-note {
-    font-size: 0.92rem;
-    line-height: 1.8;
-    color: #6b5f56;
-    margin-bottom: 20px;
-}
-
-.lineup-note strong {
-    color: #2a2521;
-}
-
-.lineup-city {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #8a7a6e;
-    margin: 20px 0 8px;
-}
-
-/* Artist Tags */
-.lineup-artists {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 20px;
-}
-
-.lineup-artists span {
-    display: inline-block;
-    padding: 6px 14px;
-    background: #fff;
-    border: 1px solid #ece6de;
-    border-radius: 20px;
-    font-size: 0.78rem;
-    color: #5a4d44;
-    white-space: nowrap;
-    transition: all 0.2s;
-}
-
-.lineup-artists span:hover {
-    border-color: #c9a96e;
-    color: #3c342f;
-}
-
-.lineup-artists span.headliner {
-    background: #3c342f;
-    color: #fff;
-    border-color: #3c342f;
+.tt-location {
+    font-size: 0.72rem;
     font-weight: 600;
-}
-
-.lineup-artists span.headliner:hover {
-    background: #c9a96e;
-    border-color: #c9a96e;
-}
-
-.lineup-venues {
-    font-size: 0.75rem;
-    color: #8a7a6e;
-    font-style: italic;
-    line-height: 1.6;
-}
-
-/* Tastys Winners */
-.tastys-winners {
-    margin-top: 32px;
-    padding: 32px;
-    background: #fff;
-    border-radius: 6px;
-}
-
-.tastys-winners h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    color: #3c342f;
-    margin-bottom: 24px;
-}
-
-.tastys-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 32px;
-}
-
-.tastys-category h4 {
-    font-size: 0.7rem;
-    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #c9a96e;
     margin-bottom: 12px;
 }
 
-.tastys-category ul {
+.tt-curator {
+    font-size: 0.95rem;
+    color: #3c342f;
+    margin-bottom: 12px;
+}
+
+.tt-curator em {
+    color: #8a7a6e;
+}
+
+.tt-year > p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: #6b5f56;
+    margin-bottom: 12px;
+}
+
+.tt-names {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #5a4d44;
+}
+
+.tt-names strong {
+    color: #2a2521;
+}
+
+/* Tastys */
+.tt-tastys {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-top: 56px;
+    border-top: 1px solid #ece6de;
+}
+
+.tt-tastys h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #3c342f;
+    margin-bottom: 4px;
+}
+
+.tt-tastys-sub {
+    font-size: 0.8rem;
+    color: #8a7a6e;
+    margin-bottom: 32px;
+}
+
+.tt-tastys h3 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c9a96e;
+    margin: 24px 0 12px;
+}
+
+.tt-tastys h3:first-of-type {
+    margin-top: 0;
+}
+
+.tt-tastys ul {
     list-style: none;
     padding: 0;
 }
 
-.tastys-category li {
-    font-size: 0.82rem;
-    line-height: 1.7;
+.tt-tastys li {
+    font-size: 0.85rem;
+    line-height: 1.6;
     color: #6b5f56;
-    padding: 4px 0;
-    border-bottom: 1px solid #f7f4f0;
+    padding: 6px 0;
 }
 
-.tastys-category li:last-child {
-    border-bottom: none;
-}
-
-.tastys-category li strong {
+.tt-tastys li strong {
     color: #3c342f;
-    font-weight: 600;
 }
 
-/* Active nav link */
-.nav-menu a.active {
-    color: #fff;
+.tt-page .interior-footer {
+    background: #f7f4f0;
+    color: #8a7a6e;
 }
 
-/* Responsive */
+.tt-page .interior-footer a {
+    color: #5a4d44;
+}
+
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
-    .interior-hero {
-        height: 40vh;
-        min-height: 280px;
+    .back-link {
+        position: absolute;
     }
 
-    .lineup-header {
-        flex-direction: column;
-        gap: 4px;
+    .festival-hero {
+        height: 50vh;
+        min-height: 320px;
     }
 
-    .lineup-header h2 {
-        font-size: 2rem;
+    .poster-year {
+        padding: 0 20px;
+        margin-bottom: 60px;
     }
 
-    .tastys-grid {
-        grid-template-columns: 1fr;
+    .tt-hero {
+        padding: 100px 24px 40px;
     }
 }
