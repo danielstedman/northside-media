@@ -410,6 +410,114 @@ img {
     margin-top: 8px;
 }
 
+/* ===== Covers Carousel ===== */
+.covers-carousel {
+    grid-column: 1 / -1;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 16px 0;
+    scrollbar-width: none;
+}
+
+.covers-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.covers-track {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+}
+
+.covers-track img {
+    height: 280px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(60, 52, 47, 0.12);
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+.covers-track img:hover {
+    transform: scale(1.03);
+}
+
+/* ===== Year by Year (expandable) ===== */
+.year-toggle {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 20px;
+    background: transparent;
+    color: var(--brown-medium);
+    border: 1.5px solid var(--cream-dark);
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.year-toggle:hover {
+    border-color: var(--brown-medium);
+    color: var(--brown-dark);
+}
+
+.year-toggle.active {
+    background: var(--brown-dark);
+    color: var(--white);
+    border-color: var(--brown-dark);
+}
+
+.year-by-year {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    grid-column: 1 / -1;
+}
+
+.year-by-year.open {
+    max-height: 3000px;
+}
+
+.yby-item {
+    display: flex;
+    gap: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--cream-dark);
+}
+
+.yby-item:last-child {
+    border-bottom: none;
+}
+
+.yby-year {
+    flex-shrink: 0;
+    width: 44px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--accent);
+    padding-top: 2px;
+}
+
+.yby-text {
+    font-size: 0.82rem;
+    line-height: 1.7;
+    color: var(--text-light);
+}
+
+.yby-text strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.yby-text em {
+    color: var(--brown-light);
+    font-size: 0.78rem;
+}
+
 /* ===== Story / Timeline ===== */
 .story {
     padding: 100px 0;

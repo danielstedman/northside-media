@@ -221,6 +221,16 @@ shuffled.forEach(path => {
     posterWall.appendChild(img);
 });
 
+// Year by Year toggles
+document.querySelectorAll('.year-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const target = document.getElementById(btn.dataset.target);
+        const isOpen = target.classList.toggle('open');
+        btn.classList.toggle('active');
+        btn.textContent = isOpen ? 'Close' : 'Year by Year';
+    });
+});
+
 // Poster toggle
 const posterWrapper = document.getElementById('poster-wall-wrapper');
 const posterToggleBtn = document.getElementById('poster-toggle-btn');
