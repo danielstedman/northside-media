@@ -133,7 +133,10 @@
       "WebFetch(domain:www.brooklynbowl.com)",
       "WebFetch(domain:www.tristateindie.com)",
       "WebFetch(domain:vvstaging.villagevoice.com)",
-      "Bash(chmod +x /Users/fastdanny/Claude/northside/scripts/download-lmag-archive.sh)"
+      "Bash(chmod +x /Users/fastdanny/Claude/northside/scripts/download-lmag-archive.sh)",
+      "Bash(bash scripts/download-lmag-archive.sh)",
+      "Bash(ps -p 7078 -o pid,command)",
+      "Bash(ps -p 33453 -o pid=)"
     ]
   }
 }

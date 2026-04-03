@@ -1,0 +1,2890 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+
+
+  
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+
+<head>
+  
+  <meta name="layout" content="Home" />
+  <meta name="oid" content="" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="/foundation/styles/reset.css?cb=42" />
+
+  
+  
+    <link rel="stylesheet" type="text/css" href="/styles/defaults.css?cb=42" />
+    <link rel="stylesheet" type="text/css" href="/styles/components.css?cb=42" />
+    <link rel="stylesheet" type="text/css" href="/styles/publication.css?cb=42" />
+  
+
+  <style type="text/css">
+    /* Foundation Convenience Styles */
+    /* For programmatic usage only! */
+    .clear { clear: both }
+    .hidden { display: none }
+    .lower { text-transform: lowercase }
+    .upper { text-transform: uppercase }
+
+    /* Foundation Conditional Display Classes */
+    .briefOnly     {  }    /* override in components.css */
+    .longOnly      {  }    /* override in components.css */
+  </style>
+
+  
+    <link rel="stylesheet" type="text/css" href="/foundation/grids/bartleby-7-zone.css" />
+  
+
+  <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie6.css" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie7.css" />
+  <![endif]-->
+  <!--[if IE8]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie8.css" />
+  <![endif]-->
+  <!--[if gte IE 9]>
+      <link rel="stylesheet" type="text/css" href="/styles/ie9-plus.css">
+  <![endif]-->
+
+  <link rel="stylesheet" href="/styles/print.css" type="text/css" media="print" />
+
+  
+  
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="The L Magazine RSS: Whole Site" href="http://www.thelmagazine.com/newyork/Rss.xml" />
+    
+    
+    
+
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="The L Magazine RSS: Comments on The L Magazine" href="http://www.thelmagazine.com/newyork/Rss.xml?id=comments" />
+    
+  
+
+  
+  <script src="/foundation/scripts/core-public.js?cb=c9a024ac23"></script>
+
+  
+  <link rel="stylesheet" href="/foundation/styles/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+  <script>
+    Foundation.documentReady.then(function () {
+        jQuery("a.zoomable").fancybox({"type": "image", "titlePosition": "over"});
+    });
+  </script>
+
+  
+  <script>
+    // Smooth scrolling to anchors on the same page.
+    setupGlide();
+    
+    // Modify user's own profile links to go to correct URL.
+    fixupProfileLinks("http:\/\/www.thelmagazine.com\/newyork\/Profile", "http:\/\/posting.thelmagazine.com\/newyork\/MyProfile");
+  </script>
+  
+  
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="http://d1.openx.org/ag.php"></script>
+
+<meta name="google-site-verification" content="C7-qlyA1M9Vt8nWUtKSy1CyGSprjlsBwayCC2ar6P-w" />
+<meta name="verify-v1" content="62phWT1UmjHkdYeM5oedTN7BQ/ExP+Qi6aj/m4xw3dg=" >
+
+<meta name="verify-v1"
+  content="C87PQ7z3LjrxQ2m6C2SzBeoJ2egK+UYs5E/RErb3/TM=" />
+
+<meta name="verify-v1"
+  content="KFCx70tP+mfiL5Sqj6ootHuzNuUXsLt5wfxB91tpXC8=" />
+
+<meta name="msvalidate.01" content="DF063E3F043B6EF8AD995C74297CB9EE" />
+<meta name="google-site-verification" content="C7-qlyA1M9Vt8nWUtKSy1CyGSprjlsBwayCC2ar6P-w" />
+
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-0943302524082054");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_art_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_art_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_art_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_art_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_art_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_books_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_books_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_books_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_books_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_books_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_columns_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_columns_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_columns_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_columns_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_columns_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_event_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_event_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_event_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_event_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_event_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_fashion_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_fashion_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_fashion_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_fashion_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_fashion_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_film_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_film_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_film_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_film_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_film_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_food_drink_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_food_drink_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_food_drink_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_Food_drink_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_food_drink_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_green_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_green_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_green_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_green_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_green_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_homepage_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_homepage_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_homepage_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_homepage_short_skyscraper_atf_RHS_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_homepage_Skyscraper_atf_RHS_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_measure_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_measure_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_measure_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_measure_short_skyscraper_atf_RHS_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_measure_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_misc_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_misc_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_misc_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_misc_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_misc_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_music_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_music_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_music_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_music_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_music_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_news_features_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_news_features_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_news_features_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_news_features_short_skyscraper_atf_RHS_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_news_features_Skyscraper_atf_RHS_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_sex_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_sex_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_sex_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_sex_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_sex_skyscraper_atf_rhs_160x600");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_theater_leaderboard_atf_top_728x90");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_theater_pencil_atf_top_940x45");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_theater_rectangle_btf_bottom_300x250");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_theater_short_skyscraper_atf_rhs_160x300");
+  GA_googleAddSlot("ca-pub-0943302524082054", "L_theater_skyscraper_atf_rhs_160x600");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+
+
+<link href="https://plus.google.com/102501021102976148864" rel="publisher" />
+  
+  
+  
+  
+
+  
+  <meta name="title" content="The L Magazine - New York City&#39;s Local Event and Arts &amp; Culture Guide" />
+  <meta name="description" content="L Magazine offers up-to-the minute reviews, commentary and listings for things to do in NYC, including New York City music events, culture, bars, restaurants, art, and more." />
+  <meta name="keywords" content="nyc rock shows, new york city music, new york city rock shows, williamsburg music, les music, things to do in nyc, nyc music, brooklyn things to do, things to do in new york, williamsburg brooklyn, new york city events calendar, dumbo brooklyn" />
+  <title>The L Magazine - New York City's Local Event and Arts & Culture Guide</title>
+
+  
+  
+    
+  
+  
+    <link rel="image_src" href="http://www.thelmagazine.com/binary/b361/lmagazine.gif" />
+    <meta name="thumbnail" content="http://www.thelmagazine.com/binary/b361/lmagazine.gif" />
+  
+
+    
+  
+
+  
+    <link rel="canonical" href="http://www.thelmagazine.com/" />
+    <meta property="og:url" content="http://www.thelmagazine.com/" />
+    
+  
+  
+  
+    <meta property="fb:app_id" content="241363809216727" />
+  
+
+  
+  <meta property="og:site_name" content="The L Magazine" />
+  <meta property="og:title" content="The L Magazine - New York City&#39;s Local Event and Arts &amp; Culture Guide" />
+
+  
+    <meta property="og:image" content="http://www.thelmagazine.com/binary/b361/lmagazine.gif" />
+  
+
+  
+  
+    <meta property="og:description" content="L Magazine offers up-to-the minute reviews, commentary and listings for things to do in NYC, including New York City music events, culture, bars, restaurants, art, and more." />
+  
+
+  
+  
+  
+
+    
+  
+  
+
+  
+  
+  <!--
+    <PageMap>
+      <DataObject type="foundation">
+        <Attribute name="oid"></Attribute>
+        <Attribute name="class"></Attribute>
+        <Attribute name="lastmodified"></Attribute>
+        <Attribute name="creationdate"></Attribute>
+      </DataObject>
+
+      
+    </PageMap>
+  -->
+
+</head>
+
+
+
+
+<body id="Home" class="Bartleby7Zone Home">
+
+<div id="fb-root"></div>
+
+
+  <script>
+    (function () {
+        var app = new Foundation.Facebook.Application();
+        app.receiveAuthNotifications();
+        app.receiveLikeNotifications();
+    })();
+  </script>
+  
+
+<!-- Leader -->
+<div id="gridLeader">
+  
+</div><!-- end gridLeader -->
+
+<div id="gridClamp">
+
+  <!-- Header -->
+  <div id="gridHeader">
+    
+
+
+
+  
+
+  
+    <div id="MobileDetect" class="GlobalHeader Home " style="display:none">
+      Switch to the <a href="http://m.thelmagazine.com/newyork/Home" rel="nofollow alternate" media="handheld">mobile version</a> of this page.
+    </div>
+
+    <script>
+      new Foundation.MobileDetectComponent("MobileDetect", true);
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="LogoAdGoogle" class="GlobalHeader Home ">
+  
+    <div id="header-logo">
+      <h1><a href="http://www.thelmagazine.com/">The L Magazine</a></h1>
+    </div>
+    
+      <div id="leaderboardAdHeader">
+        <script type="text/javascript">
+    <!--
+      if (!randomNumber) var randomNumber = Math.round(Math.random() * 20000);
+      document.write('<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/lmag.ldp/homepage;pg=home;abr=!webtv;sz=728x90;dcopt=ist;tile=1;ord=' + randomNumber + '?"></scr' + 'ipt>');
+    // -->
+    </script>
+    <noscript>
+      <a href="http://ad.doubleclick.net/N622/jump/lmag.ldp/homepage;pg=home;sz=728x90;tile=1;ord=56926608?">
+      <img src="http://ad.doubleclick.net/N622/ad/lmag.ldp/homepage;pg=home;sz=728x90;tile=1;ord=56926608?" width="728" height="90" border="0">
+      </a>
+    </noscript>
+      </div>
+    
+  
+</div>
+
+<div id="SearchLogin" class="GlobalHeader Home ">
+
+  
+  
+  <ul data-view="loggedin" style="display:none">
+    <li><strong data-label="username">Username</strong> | </li>
+    <li><a href="http://posting.thelmagazine.com/newyork/MyProfile">View Profile</a> | </li>
+    <li><a href="http://posting.thelmagazine.com/newyork/Profile/MySettings">Edit Profile</a> | </li>
+    <li><a href="http://www.thelmagazine.com/newyork/Logout">Log Out</a></li>
+  </ul>
+  
+  <ul data-view="loggedout" style="display:none">
+    <li><a href="#LogIn">Log in</a> | </li>
+    <li><a href="#CreateAccount">Create Account</a></li>
+  </ul>
+
+
+  
+  <div style="float:right;margin-right:1em;">
+    <fb:like href="https://www.facebook.com/thelmagazine" send="false" show_faces="false" action="like" font="tahoma" colorscheme="light" layout="button_count"></fb:like>
+  </div>
+
+
+  
+  
+  <div id="socialBookmarking">
+    
+      <a href="http://www.facebook.com/thelmagazine" title="L Magazine on Facebook" target="_blank"><img src="/binary/8a0e/facebook.png" border="0" alt="L Magazine on Facebook" /></a>
+    
+      <a href="http://www.twitter.com/thelmagazine" title="L Magazine on Twitter" target="_blank"><img src="/binary/2e98/twitter.png" border="0" alt="L Magazine on Twitter" /></a>
+    
+      <a href="https://plus.google.com/102501021102976148864?prsrc=3" title="L Magazine on Google+" target="_blank"><img src="/binary/887d/gplus-16.png" border="0" alt="L Magazine on Google+" /></a>
+    
+      <a href="/newyork/Rss.xml" title="L Magazine RSS" target="_self"><img src="/binary/ad37/rss.png" border="0" alt="L Magazine RSS" /></a>
+    
+      <a href="https://app.e2ma.net/app2/audience/signup/1406002/1402919/?v=a" title="L Magazine Newsletter" target="_blank"><img src="/binary/26d9/envelope-16.png" border="0" alt="L Magazine Newsletter" /></a>
+    
+    
+  </div>
+
+
+  
+
+  <div class="newsletter-signup">
+    <a href="https://app.e2ma.net/app2/audience/signup/1406002/1402919/?v=a">
+      <img src="/images/buttons/subscribe.png" alt="Sign up for L Mag E-mails" title="Sign up for L Mag E-Mails" />
+    </a>
+  
+  </div>
+
+
+</div>
+<!-- searchLogin -->
+
+<script>
+  new Foundation.LoginRequiredComponent("SearchLogin");
+</script>
+
+
+
+
+
+
+<div id="NavigationHorizontal" class="GlobalHeader Home ">
+
+  
+
+    
+    
+        <ul id="mainNav">
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li class="first" id="NavItem_lblogs">
+        <a href="http://www.thelmagazine.com/newyork/TheMeasure/" target="_self" class="subnav_link" id="SNAVL_lblogs">L Blogs</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="" id="NavItem_music">
+        <a href="http://www.thelmagazine.com/newyork/music/Section?oid=1133863" target="_self" class="subnav_link" id="SNAVL_music">Music</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="" id="NavItem_film">
+        <a href="http://www.thelmagazine.com/newyork/film/Section?oid=1133867" target="_self" class="subnav_link" id="SNAVL_film">Film</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="" id="NavItem_foodanddrink">
+        <a href="http://www.thelmagazine.com/newyork/food-and-drink/Section?oid=1133868" target="_self" class="subnav_link" id="SNAVL_foodanddrink">Food &amp; Drink</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="" id="NavItem_newsandfeatures">
+        <a href="http://www.thelmagazine.com/newyork/news-and-features/Section?oid=1142733" target="_self" class="subnav_link" id="SNAVL_newsandfeatures">News &amp; Features</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="" id="NavItem_theater">
+        <a href="http://www.thelmagazine.com/newyork/theater/Section?oid=1133875" target="_self" class="subnav_link" id="SNAVL_theater">Theater</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+      
+      
+      
+      <li class="last" id="NavItem_art">
+        <a href="http://www.thelmagazine.com/newyork/art/Section?oid=1133874" target="_self" class="subnav_link" id="SNAVL_art">Art</a>
+      </li>
+      
+    
+        </ul>
+      
+
+    
+      
+      
+        
+          <h3 class="hidden">Browse L Blogs</h3>
+          <ul class="subnav_content" id="SNAV_lblogs" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/blogs/TheMeasure/" target="_self">The Measure</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/music/" target="_self">Music</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/film/" target="_self">Film</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/food-and-drink/" target="_self">Food &amp; Drink</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/theater/" target="_self">Theater</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/art/" target="_self">Art</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/books/" target="_self">Books</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/tv/" target="_self">TV</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/politics/" target="_self">News &amp; Politics</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.Listicles.com" target="_blank">Listicles</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Music</h3>
+          <ul class="subnav_content" id="SNAV_music" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/music/Section?oid=1133863" target="_self">Music Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143077&narrowByDate=Today" target="_self">Music Listings</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/music/" target="_self">Music Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Film</h3>
+          <ul class="subnav_content" id="SNAV_film" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/film/Section?oid=1133867" target="_self">Film Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142955" target="_self">Cinema/Theaters</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/film/" target="_self">Film Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Food &amp; Drink</h3>
+          <ul class="subnav_content" id="SNAV_foodanddrink" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/food-and-drink/Section?oid=1133868" target="_self">Food &amp; Drink Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/ArticleArchives?category=1134293" target="_self">Restaurant Reviews</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142820" target="_self">Restaurant Search</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/ArticleArchives?category=1134304" target="_self">Bar Reviews</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142978" target="_self">Bar Search</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/food-and-drink/" target="_self">Food &amp; Drink Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse News &amp; Features</h3>
+          <ul class="subnav_content" id="SNAV_newsandfeatures" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/news-and-features/Section?oid=1142733" target="_self">Features Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/politics/" target="_self">News &amp; Politics Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Theater</h3>
+          <ul class="subnav_content" id="SNAV_theater" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/theater/Section?oid=1133875" target="_self">Theater Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/EventSearch?narrowByDate=Today&eventSection=1143052" target="_self">Theater Listings</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142961" target="_self">Theaters/Performance Space</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/theater/" target="_self">Theater Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Art</h3>
+          <ul class="subnav_content" id="SNAV_art" style="display:none;">
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/art/Section?oid=1133874" target="_self">Art Home</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143075&narrowByDate=Today" target="_self">Art Listings</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142954" target="_self">Galleries</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationCategory=1142958" target="_self">Museums</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/newyork/nada-emerging-artists/Content?category=1334922" target="_self">NADA Art</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        <li class="">
+          <a href="http://www.thelmagazine.com/TheMeasure/archives/art/" target="_self">Art Blog</a>
+        </li>
+        
+          </ul>
+        
+      
+
+      <script type="text/javascript"><!--
+        Event.observe(document, "dom:loaded", function () {
+          var panellinks = $$('.subnav_link');
+          panellinks.each(function(fl) {
+            var panel_id = 'SNAV_'+fl.id.split('_')[1];
+            var link_w = fl.getWidth();
+            new FloatingPanel(fl,panel_id,{
+              rightOffset:'-' + (link_w + 0),
+              topOffset:'30',
+              effects: 'off',
+              closeDelay:'0',
+              allowDefault: true,
+              beforeOpen: function() {
+                fl.addClassName('hover');
+                Element.up(fl).addClassName('hover');
+              },
+              beforeClose: function() {
+                fl.removeClassName('hover');
+                Element.up(fl).removeClassName('hover');
+              }
+            });
+          });
+        });
+      // --></script>
+    
+  
+
+</div><!-- end navigation -->
+
+<div id="NavigationSubnav" class="GlobalHeader Home ">
+
+
+    <ul id="subNav">
+  
+  
+
+  
+
+  <li class="first" id="subNavItem_Northside">
+    <a href="http://www.northsidefestival.com/" target="_self">Northside</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_listings">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?narrowByDate=Today" target="_self">Events</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_fashion">
+    <a href="http://www.thelmagazine.com/newyork/fashionville/Content?category=1134294" target="_self">Fashion</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_sex">
+    <a href="http://www.thelmagazine.com/newyork/sex-with-the-natural-redhead/Content?category=1134310" target="_self">Sex</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_books">
+    <a href="http://www.thelmagazine.com/newyork/books/Section?oid=1133862" target="_self">Books</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_dance">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143053" target="_self">Dance</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_fareisfair">
+    <a href="http://www.thelmagazine.com/newyork/fare-is-fare/Content?category=1133882" target="_self">Fare is Fair</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_nightlife">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143076" target="_self">Nightlife</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_horoscope">
+    <a href="http://www.thelmagazine.com/newyork/horoscope/Content?category=1133899" target="_self">Horoscope</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="" id="subNavItem_fiction">
+    <a href="http://www.thelmagazine.com/newyork/fiction/Section?oid=1145869" target="_self">Fiction</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="highlight" id="subNavItem_directory">
+    <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationSection=1146236" target="_self">Directory</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="highlight" id="subNavItem_LMagDating">
+    <a href="http://thelmagazine.howaboutwe.com/" target="_blank">Dating</a>
+  </li>
+  
+
+  
+
+  
+
+  <li class="last" id="subNavItem_50percentoffdeals">
+    <a href="http://brooklyn.altperks.com/Shop" target="_self">50% Off Deals</a>
+  </li>
+  
+
+    </ul>
+  
+
+</div>
+<div id="PencilBarGoogle" class="GlobalHeader Home advert ">
+  <script type="text/javascript">
+      GA_googleFillSlot("L_homepage_pencil_atf_top_940x45");
+    </script>
+</div><script src="http://www.surveymonkey.com/jsPop.aspx?sm=RNPNuqTRdCSA0Mt2gA6bDQ_3d_3d"> </script>
+  </div><!-- end gridHeader -->
+
+  <div id="gridMain">
+    
+    <div id="gridLeftFrame">
+      <div id="gridMainColumn">
+        
+
+
+
+
+
+<div id="HomeTopStories" class="MainColumn Home ">
+  
+    
+            
+      <a href="http://www.thelmagazine.com/newyork/women-who-rock-on-the-still-male-dominated-business-side-of-indie-rock/Content?oid=2290483">
+        <img src="/imager/b/homepagefeature/2290483/5e9d/teaser.jpg" width="460" height="320" alt="Women Who Rock! (On the Still Male-Dominated Business Side of Indie Rock)" title="Women Who Rock! (On the Still Male-Dominated Business Side of Indie Rock)" class="storyImg" />
+      </a>
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/women-who-rock-on-the-still-male-dominated-business-side-of-indie-rock/Content?oid=2290483">Women Who Rock! (On the Still Male-Dominated Business Side of Indie Rock)</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        Six of the most secretly influential women in the Brooklyn music scene discuss their experiences as being the only women in the room.
+      
+    </p>
+
+    
+      <p class="byline">By Lauren Beck</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+</div>
+
+
+
+
+
+<div id="HomeFollowStories" class="MainColumn Home ">
+  
+    <div class="followStoryItem">
+      
+        <h3><a href="http://www.thelmagazine.com/TheMeasure/archives/sex/">Sex</a></h3>
+      
+      
+        <a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/17/sex-love-and-brooklyn-on-the-perils-of-chat-sex">
+          <img src="/imager/sex-love-and-brooklyn-on-the-perils-of-chat-sex/b/featurette/2290819/e994/1358444631-cupid-from-galatea-by-rap-001.jpg" alt="Sex, Love and Brooklyn: On the Perils of Chat Sex" Title="Sex, Love and Brooklyn: On the Perils of Chat Sex"  class="storyImg" width="139" height="100" />
+        </a> 
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/17/sex-love-and-brooklyn-on-the-perils-of-chat-sex">Sex, Love and Brooklyn: On the Perils of Chat Sex</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        Sometimes, chat-sex is the best we expect.
+      
+    </p>
+
+    
+      <p class="byline">By Lacy Warner</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    </div>
+  
+    <div class="followStoryItem">
+      
+        <h3><a href="http://www.thelmagazine.com/TheMeasure/archives/film/">Film</a></h3>
+      
+      
+        <a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/11/5-reasons-sundance-should-definitely-without-a-doubt-come-to-brooklyn">
+          <img src="/imager/5-reasons-sundance-should-definitely-without-a-doubt-come-to-brooklyn/b/featurette/2289927/3ba6/1357930460-sundance08img.jpg" alt="5 Reasons Sundance Should Definitely, Without a Doubt Come to Brooklyn" Title="5 Reasons Sundance Should Definitely, Without a Doubt Come to Brooklyn"  class="storyImg" width="139" height="100" />
+        </a> 
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/11/5-reasons-sundance-should-definitely-without-a-doubt-come-to-brooklyn">5 Reasons Sundance Should Definitely, Without a Doubt Come to Brooklyn</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        They like us! They really like us.
+      
+    </p>
+
+    
+      <p class="byline">By Virginia K. Smith</p>
+    
+  
+    
+      <p class="releaseDate">Jan 11, 2013</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    </div>
+  
+    <div class="followStoryItem">
+      
+        <h3><a href="http://www.thelmagazine.com/TheMeasure/archives/sex/">Sex</a></h3>
+      
+      
+        <a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/10/sex-love-and-brooklyn-learning-to-suck-it">
+          <img src="/imager/sex-love-and-brooklyn-learning-to-suck-it/b/featurette/2289752/258b/1357827676-sexy_shark.jpg" alt="Sex, Love and Brooklyn: Learning to Suck It" Title="Sex, Love and Brooklyn: Learning to Suck It"  class="storyImg" width="139" height="100" />
+        </a> 
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/10/sex-love-and-brooklyn-learning-to-suck-it">Sex, Love and Brooklyn: Learning to Suck It</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        To please a shark, you have to practice.
+      
+    </p>
+
+    
+      <p class="byline">By Lacy Warner</p>
+    
+  
+    
+      <p class="releaseDate">Jan 10, 2013</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    </div>
+  
+</div>
+
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+  <hr class="dblborder" />
+  <div id="GoingOnTonight" class="MainColumn Home ">
+    <h1>Going On Today...</h1>
+    
+        
+        
+      
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+        <div class="tabs">
+          <div class="tabCurrent tabLeft">
+        
+          <a href="http://www.thelmagazine.com/newyork/badminton-at-the-park/Event?oid=2201813"><span class="GoTsmall">in</span> Special Events</a>
+        </div>
+        
+          <div class="tabBack tabCenter">
+        
+          <a href="http://www.thelmagazine.com/newyork/coolny-2012/Event?oid=2203730"><span class="GoTsmall">in</span> Dance</a>
+        </div>
+        
+          <div class="tabBack tabRight">
+        
+          <a href="http://www.thelmagazine.com/events/mary-poppins/Event?oid=1146336"><span class="GoTsmall">in</span> Theater</a>
+        </div>
+        </div>
+        <div class="clear"></div>
+        <div class="GoTBody">
+        
+        
+        
+        
+        
+        
+        <h2><a href="http://www.thelmagazine.com/newyork/badminton-at-the-park/Event?oid=2201813">Badminton at the Park</a></h2>
+        
+        <p class="storyBody">
+          Free badminton at the Open House Gallery's indoor park.
+          
+           
+        </p>
+        
+        
+        
+          <p class="locationInfo">
+            Open House Gallery, 201 Mulberry St., Nolita
+          </p>
+        
+        </div>
+        
+          <div class="GoTBody" style="display:none">
+        
+        
+        
+        
+        
+        
+        <h2><a href="http://www.thelmagazine.com/newyork/coolny-2012/Event?oid=2203730">CoolNY 2012</a></h2>
+        
+        <p class="storyBody">
+          The cold weather counterpart to September's DUMBO Dance Festival, CoolNY is likewise free and full to bursting, with nearly 300 dancers and choreographers taking the Jay Street stage during the two-week festival. Among the emerging, established, local and international participants are resident troupe White Wave Young Soon Kim Dance Company and the Renegade Performance Group.
+          
+          FREE 
+        </p>
+        
+        
+        
+          <p class="locationInfo">
+            John Ryan Theater, 25 Jay St., at John St, Dumbo
+          </p>
+        
+        </div>
+        
+          <div class="GoTBody" style="display:none">
+        
+        
+        
+        
+        
+                
+          <div class="GoTimg">
+            <a href="http://www.thelmagazine.com/events/mary-poppins/Event?oid=1146336">
+              <img src="/imager/b/eventfeature/1146336/abe8/TUES_MaryPoppins_theater.jpg" width="450" height="300" alt="Mary Poppins" title="Mary Poppins" class="storyImg" />
+            </a>
+          </div>
+        
+        
+        <h2><a href="http://www.thelmagazine.com/events/mary-poppins/Event?oid=1146336">Mary Poppins</a></h2>
+        
+        <p class="storyBody">
+          Disney hopes to create another <i>Lion King</i>-type monster hit with this musical based on the beloved 1964 movie of the same name.
+          
+          $20-$110 
+        </p>
+        
+        
+        
+          <p class="locationInfo">
+            New Amsterdam Theater, 214 W 42nd St., between Broadway and Eighth Ave, Midtown East
+          </p>
+        
+        </div>
+      
+  </div>
+
+
+  
+
+  <script type="text/javascript"><!--
+    Event.observe(document, "dom:loaded", function () {
+        dnSetupTabGroup(
+            $$("#GoingOnTonight div.tabs>div"),
+            $$("#GoingOnTonight div.GoTBody"),
+            "tabCurrent", "tabBack"
+        );
+      
+        // Deactivate links.
+        $$("#GoingOnTonight div.tabs>div a").each(function (a) {
+            a.onclick = function () { return false; };
+        });
+    });
+  //--></script>
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+  
+  <hr class="dblborder" />
+
+  <div id="HomeMainMusic" class="MainColumn Home ">
+    
+    <h1><a href="http://www.thelmagazine.com/newyork/music/Section?oid=1133863">Music</a></h1>
+
+    
+    
+    
+  
+    
+      
+              
+        <a href="http://www.thelmagazine.com/newyork/the-30-best-albums-of-2013/Content?oid=2288579">
+          <img src="/imager/b/story/2288579/03f9/teaser.jpg" width="160" height="117" alt="The 30 Best Albums of 2013?" Title="The 30 Best Albums of 2013?" class="storyImg" />
+        </a>
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/the-30-best-albums-of-2013/Content?oid=2288579">The 30 Best Albums of 2013?</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        This is what you'll be listening to all year, probably.
+      
+    </p>
+
+    
+      <p class="byline">By Mike Conklin, Lauren Beck and Jeff Klingman</p>
+    
+  
+    
+      <p class="releaseDate">Jan  2, 2013</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+
+    
+    
+    
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2012/12/17/were-sorry-but-10-albums-you-guys-totally-got-tricked-into-liking">We're Sorry, But... 10 Albums You Guys Totally Got Tricked into Liking</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        People told you these records were good. They were lying.
+      
+    </p>
+
+    
+      <p class="byline">By Mike Conklin, Lauren Beck and Jeff Klingman</p>
+    
+  
+    
+      <p class="releaseDate">Dec 17, 2012</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2012/12/17/brooklyn-in-2012-a-20-song-crash-course">Brooklyn in 2012: A 20-Song Crash Course</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        For better or worse, this is how our borough sounded in 2012.
+      
+    </p>
+
+    
+      <p class="byline">By Lauren Beck and Jeff Klingman</p>
+    
+  
+    
+      <p class="releaseDate">Dec 17, 2012</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/silent-barn-returns-an-interview-with-venue-booker-nat-roe/Content?oid=2282963">Silent Barn Returns: An Interview With Venue Booker Nat Roe</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        On the cusp of DIY haven Silent Barn reopening in Bushwick, we talk to Roe about some of the things in store at its new home.
+      
+    </p>
+
+    
+      <p class="byline">By Lauren Beck</p>
+    
+  
+    
+      <p class="releaseDate">Dec  5, 2012</p>
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+        
+    
+  </div>
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+  
+  <hr class="dblborder" />
+
+  <div id="HomeMainFilm" class="MainColumn Home ">
+    
+    <h1><a href="http://www.thelmagazine.com/newyork/film/Section?oid=1133867">Film</a></h1>
+
+    
+    
+    
+  
+    
+      
+              
+        <a href="http://www.thelmagazine.com/newyork/hors-satan-the-devil-inside-me/Content?oid=2290405">
+          <img src="/imager/b/story/2290405/ed6c/hors-satan-2_teaser.jpg" width="160" height="117" alt="&lt;i&gt;Hors Satan&lt;/i&gt;: The Devil Inside Me" Title="&lt;i&gt;Hors Satan&lt;/i&gt;: The Devil Inside Me" class="storyImg" />
+        </a>
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/hors-satan-the-devil-inside-me/Content?oid=2290405"><i>Hors Satan</i>: The Devil Inside Me</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        A man performs miracles and wreaks havoc on a rural village for mysterious reasons.
+      
+    </p>
+
+    
+      <p class="byline">By Michael Joshua Rowin</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+
+    
+    
+    
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/nana-kids-stuff/Content?oid=2290408"><i>Nana</i>: Kids Stuff</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        A 4-year-old plays on a farm. Is it poetry?
+      
+    </p>
+
+    
+      <p class="byline">By Nicolas Rapold</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/happy-people-a-movie-for-people-who-hate-their-phones/Content?oid=2290417"><i>Happy People</i>: A Movie For People Who Hate Their Phones</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        Werner Herzog finds joy in the off-the-grid lives of Siberians.
+      
+    </p>
+
+    
+      <p class="byline">By Henry Stewart</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/the-pirogue-30-characters-in-80-minutes/Content?oid=2290414"><i>The Pirogue</i>: 30 Characters in 80 Minutes</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        This unwieldy Senegalese film depicts the dangers of immigrating by boat.
+      
+    </p>
+
+    
+      <p class="byline">By Benjamin Mercer</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+        
+    
+  </div>
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+  
+  <hr class="dblborder" />
+
+  <div id="HomeMainFoodDrink" class="MainColumn Home ">
+    
+    <h1><a href="http://www.thelmagazine.com/newyork/food-and-drink/Section?oid=1133868">Food & Drink</a></h1>
+
+    
+    
+    
+  
+    
+      
+              
+        <a href="http://www.thelmagazine.com/newyork/die-koelner-bierhalle-too-big-for-its-own-good/Content?oid=2290503">
+          <img src="/imager/b/story/2290503/b494/501442.cozynight_teaser.jpg" width="160" height="117" alt="Die Koelner Bierhalle: Too Big For Its Own Good" Title="Die Koelner Bierhalle: Too Big For Its Own Good" class="storyImg" />
+        </a>
+      
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/die-koelner-bierhalle-too-big-for-its-own-good/Content?oid=2290503">Die Koelner Bierhalle: Too Big For Its Own Good</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        The Park Slope German beer hall has a lot of space and options. Maybe too much.
+      
+    </p>
+
+    
+      <p class="byline">By Cathy Erway</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+
+    
+    
+    
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/selamat-pagi-its-morning-somewhere/Content?oid=2290500">Selamat Pagi: It's Morning Somewhere</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        Good morning! It's time for a Balinese dinner in Greenpoint!
+      
+    </p>
+
+    
+      <p class="byline">By Kara Zuaro</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+        
+    
+  </div>
+
+
+
+      </div><!-- end gridMainColumn -->
+
+      <div id="gridCenterColumn">
+        
+
+
+
+
+
+
+
+<div id="Columns" class="CenterColumn Home ">
+  <div class="headerBar">
+    <h1 class="sectionHeader" id="sectionHeader_columns">Columns</h1>
+  </div>
+
+  
+  
+  
+    
+    
+    
+      
+              
+        <a href="http://www.thelmagazine.com/newyork/what-are-your-new-years-resolutions/Content?oid=2288605">
+          <img src="/imager/b/story/2288605/9415/newyearsteaser2.jpg" width="160" height="116" alt="What Are Your  New Year&rsquo;s Resolutions?" Title="What Are Your  New Year&rsquo;s Resolutions?" class="storyImg" />
+        </a>
+      
+      <div class="storyItem">
+    <h3 class="columnTitle_AskACabbie"><a href="http://www.thelmagazine.com/newyork/what-are-your-new-years-resolutions/Content?oid=2288605">Ask A Cabbie</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/what-are-your-new-years-resolutions/Content?oid=2288605">What Are Your  New Year’s Resolutions?</a></h4>
+  
+    
+      <p class="byline">By Ryan Vlastelica</p>
+    
+
+    <p class="storyBody">
+      
+        "I don’t have any resolutions. I’m perfect."
+      
+    </p>
+
+      
+    <div class="clear"><!-- clear --></div>
+  </div>
+    
+    
+  
+
+  
+  
+  
+    
+      <div class="storyItem">
+    <h3 class="columnTitle_ArtFagCity"><a href="http://www.thelmagazine.com/newyork/how-much-do-you-owe-me-more-than-this/Content?oid=2289980">Art Fag City</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/how-much-do-you-owe-me-more-than-this/Content?oid=2289980">How Much Do You Owe Me? More Than This!</a></h4>
+  
+    
+      <p class="byline">By Paddy Johnson</p>
+    
+
+    <p class="storyBody">
+      
+        <i>How Much Do I Owe You?</i> in Long Island City is a disaster.
+      
+    </p>
+
+      
+    <div class="clear"><!-- clear --></div>
+  </div>    
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="columnTitle_SexWiththeNaturalRedhead"><a href="http://www.thelmagazine.com/newyork/stubble-trouble/Content?oid=2289957">Sex With the Natural Redhead</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/stubble-trouble/Content?oid=2289957">Stubble Trouble</a></h4>
+  
+    
+      <p class="byline">By Audrey Ference</p>
+    
+
+    <p class="storyBody">
+      
+        Dear Audrey, am I manscaping properly?
+      
+    </p>
+
+      
+    <div class="clear"><!-- clear --></div>
+  </div>    
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="columnTitle_SexDatingandOtherAtrocities"><a href="http://www.thelmagazine.com/newyork/help-us-pick-our-new-sex-correspondent/Content?oid=2286501">Sex, Dating and Other Atrocities</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/help-us-pick-our-new-sex-correspondent/Content?oid=2286501">Help Us Pick Our New Sex Correspondent!</a></h4>
+  
+    
+
+    <p class="storyBody">
+      
+        Loading...
+      
+    </p>
+
+      
+    <div class="clear"><!-- clear --></div>
+  </div>    
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="columnTitle_Nightlife"><a href="http://www.thelmagazine.com/newyork/rsvp-for-the-brooklyn-magazine-holiday-and-winter-issue-launch-party/Content?oid=2280672">Nightlife</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/rsvp-for-the-brooklyn-magazine-holiday-and-winter-issue-launch-party/Content?oid=2280672">RSVP for the Brooklyn Magazine Holiday and Winter Issue Launch Party</a></h4>
+  
+    
+
+    <p class="storyBody">
+      
+        Loading...
+      
+    </p>
+
+      
+    <div class="clear"><!-- clear --></div>
+  </div>    
+    
+  
+
+</div><div id="SkyscraperDoubleclick" class="CenterColumn Home advert ">
+  <script type="text/javascript">
+    <!--
+      if (!randomNumber) var randomNumber = Math.round(Math.random() * 20000);
+      document.write('<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/lmag.ldp/homepage;pg=home;abr=!webtv;sz=160x600;tile=3;ord=' + randomNumber + '?"></scr' + 'ipt>');
+    // -->
+    </script>
+    <noscript>
+      <a href="http://ad.doubleclick.net/N622/jump/lmag.ldp/homepage;pg=home;sz=160x600;tile=3;ord=56926608?">
+      <img src="http://ad.doubleclick.net/N622/ad/lmag.ldp/homepage;pg=home;sz=160x600;tile=3;ord=56926608?" width="160" height="600" border="0">
+      </a>
+    </noscript>
+</div>
+
+
+
+
+
+<div id="HomeReviews" class="CenterColumn Home ">
+  <div class="headerBar">
+    <h1 class="sectionHeader" id="sectionHeader_reviews">Reviews</h1>
+  </div>
+
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/checkmate-the-chess-lesson/Content?oid=2289986">Theater</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/checkmate-the-chess-lesson/Content?oid=2289986">Checkmate!: <i>The Chess Lesson</i></a></h4>
+
+    <p class="storyBody">
+      
+        One of those multifaceted finds that rewards those who bravely search out new plays at small theaters.
+      
+    </p>
+
+    
+      <p class="byline">By Dan Callahan</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/here-are-things-and-here-is-their-order/Content?oid=2289983">Art</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/here-are-things-and-here-is-their-order/Content?oid=2289983">Here Are Things, And Here Is Their Order</a></h4>
+
+    <p class="storyBody">
+      
+        Group exhibition <i>The Order of Things</i> at NurtureArt places puzzling objects in peculiar arrangements to pose an array of potential questions.
+      
+    </p>
+
+    
+      <p class="byline">By Paul D'Agostino</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/hamiltons-kensington-gets-a-nice-bar/Content?oid=2288615">Bar</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/hamiltons-kensington-gets-a-nice-bar/Content?oid=2288615">Hamilton's: Kensington Gets a Nice Bar</a></h4>
+
+    <p class="storyBody">
+      
+        It might not be a destination spot, but it'll do just fine.
+      
+    </p>
+
+    
+      <p class="byline">By Cathy Erway</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/prosperous-friends-hipster-blues-with-a-feeling/Content?oid=2289965">Books</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/prosperous-friends-hipster-blues-with-a-feeling/Content?oid=2289965"><i>Prosperous Friends</i>: Hipster Blues With A Feeling</a></h4>
+
+    <p class="storyBody">
+      
+        Christine Schutt's latest is a moving portrait of well-to-do people.
+      
+    </p>
+
+    
+      <p class="byline">By Tracy O’Neill</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/supporting-characters-the-post-production-of-our-lives/Content?oid=2290411">Film</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/supporting-characters-the-post-production-of-our-lives/Content?oid=2290411"><i>Supporting Characters</i>: The Post-Production of Our Lives</a></h4>
+
+    <p class="storyBody">
+      
+        Two film editors try to save a movie and their personal relationships.
+      
+    </p>
+
+    
+      <p class="byline">By Henry Stewart</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+    
+      <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/newyork/buggin-out-la-slowteria/Content?oid=2288609">Restaurant</a></h3>
+  
+    <h4><a href="http://www.thelmagazine.com/newyork/buggin-out-la-slowteria/Content?oid=2288609">Buggin Out: La Slowteria</a></h4>
+
+    <p class="storyBody">
+      
+        Insects and more at this Williamsburg Mexican joint.
+      
+    </p>
+
+    
+      <p class="byline">By Kara Zuaro</p>
+    
+      
+    <div class="clear"><!-- clear --></div>
+  </div> 
+    
+  
+
+</div>
+      </div><!-- end gridCenterColumn -->
+    </div><!-- end gridLeftFrame -->
+    
+    <div id="gridRightFrame">
+      <div id="gridRightSidebarTop">
+        <div id="SiteSearchForm" class="RightSidebarTop Home ">
+  
+
+  
+    
+    <form class="prepTextForm" id="searchbox_000938146996843409121:gf9yg-myipw" action="http://www.thelmagazine.com/newyork/Search">
+        <input type="hidden" name="cx" value="000938146996843409121:gf9yg-myipw" />
+        <input type="hidden" name="cof" value="FORID:9" />
+        <input type="text" name="q" size="25" />
+        <input type="submit" name="sa" value="Search" />
+    </form>
+  
+</div>
+
+
+
+
+
+
+
+
+<div id="DailyL" class="RightSidebarTop Home ">
+  <div class="headerBar">
+    <h1 id="sectionHeader_DailyL" class="sectionHeader"><a href="http://www.thelmagazine.com/blogs/TheMeasure/">The Measure</a></h1>
+  </div>
+
+  
+    
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/a-colored-image-of-the-sun">A Colored Image of the Sun</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        The latest work from Shannon Gillen + Guests.
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=2246680">Kristin Iversen</a> at  3:00 PM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+    
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/sohos-gay-atelier">SoHo's Gay Atelier</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        A high-class, old-school pursuit.
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=2241738">Corinna Kirsch</a> at  1:18 PM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+    
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/scarlett-johansson-on-a-hot-tin-roof">Scarlett Johansson on a Hot Tin Roof</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        A Tennessee Williams revival that draws out the play's vitality, horror and pain.
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=1134244">Ryan Vlastelica</a> at 12:20 PM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+    
+    
+      <div id="RectangleDoubleclick" class="RightSidebarTop RectangleDoubleclick advert MediumRectangle">
+  <script type="text/javascript">
+    <!--
+      if (!randomNumber) var randomNumber = Math.round(Math.random() * 20000);
+      document.write('<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/lmag.ldp/homepage;pg=home;abr=!webtv;sz=300x250;tile=2;ord=' + randomNumber + '?"></scr' + 'ipt>');
+    // -->
+    </script>
+    <noscript>
+      <a href="http://ad.doubleclick.net/N622/jump/lmag.ldp/homepage;pg=home;sz=300x250;tile=2;ord=56926608?">
+      <img src="http://ad.doubleclick.net/N622/ad/lmag.ldp/homepage;pg=home;sz=300x250;tile=2;ord=56926608?" width="300" height="250" border="0">
+      </a>
+    </noscript>
+</div> 
+      <p class="more">The Measure cont'd</p>
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/your-throwback-weekend-at-the-movies-starring-arnold-schwarzenegger">Your Throwback Weekend at the Movies, Starring Arnold Schwarzenegger!</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        He's back! What does it mean?
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=1133961">Jesse Hassenger</a> at 12:10 PM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+    
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/your-weekend-90s-nostalgia-amy-fisher-film-extravaganza-at-videology">Your Weekend 90's Nostalgia: Amy Fisher Film Extravaganza at Videology</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        Triple Fisher is exactly what it sounds like, which is perfect.
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=2243628">Virginia K. Smith</a> at 10:00 AM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+    
+    
+
+    
+    <div class="storyItem">
+    <h3 class="headline"><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/18/what-the-fuck-is-a-squatty-potty-would-you-pay-80-for-one">What the Fuck is a Squatty Potty? Would You Pay $80 for One?</a></h3>
+
+    
+  
+    <p class="storyBody">
+      
+        "Enjoy freedom from being toilet bound." Okay.
+      
+    </p>
+
+    
+      
+      <p class="byline">Posted by <a href="http://www.thelmagazine.com/newyork/ArticleArchives?author=2243628">Virginia K. Smith</a> at  9:00 AM</p>
+    
+  
+    
+  
+    <div class="clear"><!-- clear --></div>
+  </div>
+  
+
+</div><div id="HowAboutWecomPromo" class="RightSidebarTop Home ">
+  
+  <div id="thelmagazine_medium_rectangle"></div>
+  <script src="http://www.howaboutwe.com/promo_modules/medium_rectangle_ads.js?element=thelmagazine_medium_rectangle&partner_name=thelmagazine"></script>
+</div>
+
+
+  
+<div id="PhotoGalleryQuad" class="RightSidebarTop Home ">
+
+      <div class="sectionHeader">
+        <a href="http://www.thelmagazine.com/newyork/ArticleArchives?contentFeature=1468996">Photo Galleries</a>
+      </div>
+     
+     
+
+      
+          <div>
+            <div style="float:right; width:139px;">
+            
+
+        
+                
+          <a href="http://www.thelmagazine.com/newyork/beach-house-at-summerstage/Slideshow?oid=2250211">
+            <img src="/imager/b/featurette/2250211/a7b5/TEaserIMG_1879.png" width="139" height="100" alt="" Title="" class="storyImg" />
+          </a>
+        
+         <div class="pgTitle"><a href="http://www.thelmagazine.com/newyork/beach-house-at-summerstage/Slideshow?oid=2250211">Beach House at Summerstage</div>
+       </div>    
+
+          
+    
+  
+     
+
+      
+            <div style="width:139px;">      
+            
+
+        
+                
+          <a href="http://www.thelmagazine.com/newyork/still-house-group-a-brooklyn-collective-shaking-up-the-art-world/Slideshow?oid=2258874">
+            <img src="/imager/b/featurette/2258874/da75/teaser.jpg" width="139" height="100" alt="" Title="" class="storyImg" />
+          </a>
+        
+         <div class="pgTitle"><a href="http://www.thelmagazine.com/newyork/still-house-group-a-brooklyn-collective-shaking-up-the-art-world/Slideshow?oid=2258874">Still House Group: A Brooklyn  Collective  Shaking Up the  Art World</div>
+       </div>    
+
+      
+        </div>
+        <br clear="all">
+          
+    
+  
+     
+
+      
+          <div>
+            <div style="float:right; width:139px;">
+            
+
+        
+          <a href="http://www.thelmagazine.com/newyork/northside-nightlife-diary-glasslands/Slideshow?oid=2239602">
+            <img src="/imager/northside-nightlife-diary-glasslands/b/featurette/2239603/a303/7396009310_6c626fbba5_o.jpg" alt="" Title=""  class="storyImg" width="139" height="100" />
+          </a> 
+        
+         <div class="pgTitle"><a href="http://www.thelmagazine.com/newyork/northside-nightlife-diary-glasslands/Slideshow?oid=2239602">Northside Nightlife Diary: Glasslands</div>
+       </div>    
+
+          
+    
+  
+     
+
+      
+            <div style="width:139px;">      
+            
+
+        
+                
+          <a href="http://www.thelmagazine.com/newyork/bushwickens-at-tandem-bar/Slideshow?oid=2264896">
+            <img src="/imager/b/featurette/2264896/d1c1/tease.jpg" width="139" height="100" alt="" Title="" class="storyImg" />
+          </a>
+        
+         <div class="pgTitle"><a href="http://www.thelmagazine.com/newyork/bushwickens-at-tandem-bar/Slideshow?oid=2264896">Bushwickens at Tandem Bar</div>
+       </div>    
+
+      
+        </div>
+        <br clear="all">
+          
+    
+  
+    <div class="headerBar">
+    </div>
+  </div>
+  
+
+<div id="ScribolWidget" class="RightSidebarTop Home ">
+  <div class="headerBar">
+    <h2>
+      Stories from Around the Web
+    </h2>
+  </div>
+  <iframe class="scribol" height="256" width="227" id="scribol_1758870" scrolling="no" frameborder="0"></iframe>
+  <script>
+    var Scribol;if(typeof Scribol=='undefined'){Scribol={};Scribol.frames=[];Scribol.site='http://scribol.com/';Scribol.is_preview=false;}
+    Scribol.frames.push('1758870');
+  </script>
+  <script async="async" defer="defer" src="http://scribol.com/txwidget1.2.js"></script>
+</div>
+
+<div id="MostCommented" class="RightSidebarTop Home ">
+  <div class="tabs">
+    <div class="tabCurrent tabLeft"><a href="#">Most Read</a></div> 
+    <div class="tabBack tabRight"><a href="#">Most Commented</a></div> 
+  </div>
+  
+  <div class="clear"><!-- clear --></div>
+ 
+  <div class="commentedBody">
+    <ol>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/well-at-least-there-was-good-stuff-to-read-the-books-of-the-decade/Content?oid=1485416">Well, At Least There Was Good Stuff to Read: The Books of the Decade</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/women-who-rock-on-the-still-male-dominated-business-side-of-indie-rock/Content?oid=2290483">Women Who Rock! (On the Still Male-Dominated Business Side of Indie Rock)</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/25-cheap-things-to-do-in-nyc/Content?oid=1508718">25 Cheap Things To Do in NYC</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/brooklyns-most-livable-hoods/Content?oid=2265037">Ranking the 13 Most Livable Neighborhoods in Brooklyn</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/the-10-best-trader-joes-store-brand-items/Content?oid=2214053">The 10 Best Trader Joe's Store-Brand Items</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/the-best-eats/Content?oid=2273478">15 Brooklyn Neighborhoods and The Very Best Restaurant in Each</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BrooklynAbridged/archives/2013/01/16/there-is-now-a-magazine-for-hipster-dads">There Is Now a Magazine for Hipster Dads</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/your-brief-guide-to-nycs-underground-sex-parties/Content?oid=1529852">Your Brief Guide to NYC's Underground Sex Parties</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BrooklynAbridged/archives/2012/08/27/yes-the-barclays-center-is-supposed-to-look-that-way">Yes, The Barclays Center Is Supposed to Look That Way</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/what-to-expect-when-youre-expecting-butt-sex/Content?oid=1188658">What to Expect When You're Expecting Butt Sex</a></li>
+      
+    </ol>  
+  </div>
+  
+  <div class="commentedBody" style="display:none">
+    <ol>
+      
+        <li><a href="http://www.thelmagazine.com/BrooklynAbridged/archives/2013/01/02/there-is-now-a-literal-map-of-brooklyns-gentrification">There is Now a Literal Map of Brooklyn's Gentrification</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/les-misrables-some-musicals-shouldnt-be-movies/Content?oid=2287131"><i>Les Misérables</i>: Some Musicals Shouldn't Be Movies!</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/newyork/my-brooklyn-how-bloomberg-destroyed-downtown/Content?oid=2288573"><i>My Brooklyn</i>: How Bloomberg Destroyed Downtown</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/04/sex-love-and-brooklyn-cum-on-my-face-book">Sex, Love and Brooklyn: Cum on My Face... Book</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BKFood/archives/2012/12/27/the-20-best-brooklyn-dishes-of-2012">The 20 Best New York Dishes of 2012</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BrooklynAbridged/archives/2013/01/08/the-ny-post-attacks-lena-dunham-and-her-sloppy-backside">The NY Post Attacks Lena Dunham and Her "Sloppy Backside"</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BKFood/archives/2013/01/18/neighborhood-crawl-where-to-eat-and-drink-of-5th-avenue-in-park-slope">Neighborhood Crawl: Where to Eat and Drink on 5th Avenue in Park Slope</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/17/sex-love-and-brooklyn-on-the-perils-of-chat-sex">Sex, Love and Brooklyn: On the Perils of Chat Sex</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/BrooklynAbridged/archives/2013/01/17/miss-americas-windsor-terrace-hot-spots-are-terrible-make-no-sense">Miss America's Windsor Terrace "Hot Spots" Are Terrible, Make No Sense</a></li>
+      
+        <li><a href="http://www.thelmagazine.com/TheMeasure/archives/2013/01/14/girls-recap-if-you-hated-it-before-you-might-still-hate-it-get-over-that">Girls Recap: If You Hated It Before, You Might Still Hate It. Get Over That.</a></li>
+      
+    </ol>
+  </div>
+
+</div>
+
+
+
+
+<script type="text/javascript"><!--
+  Event.observe(document, "dom:loaded", function () {
+      dnSetupTabGroup(
+          $$("#MostCommented div.tabs>div"),
+          $$("#MostCommented div.commentedBody"),
+          "tabCurrent", "tabBack"
+      );
+      
+      // Deactivate links.
+      $$("#MostCommented div.tabs>div a").each(function (a) {
+          a.onclick = function () { return false; };
+      });
+  });
+//--></script>
+
+
+
+
+
+<div id="NeighborhoodClassifieds" class="RightSidebarTop Home ">
+  <h2><a href="/newyork/LocationSearch?locationSection=1146236">Classified Directory</a></h2>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Fort Greene, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/mauzac/Location?oid=2014883">Mauzac</a></h4>
+    <p class="desc">Perched at the edge of Fort Greene Park with a view of the changing seasons, the intimate Mauzac wine bar is the perfect place to enjoy a variety of wines in a warm and inviting setting.</p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Fort Greene, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/chez_oskar/Location?oid=2014799">Chez Oskar</a></h4>
+    <p class="desc">This classic French bistro has great Bohemian, Harlem Renaissance-inspired flair. Fall's must eats: escargots, steak au poivre, duck parmentier. Open every day, Oskar specials are Week Nites: Early Bird Prix Fixe (22), Mondays Wednesdays/Sundays: live music, Tuesdays: 'All You Can Eat Mussels Nite' (12) & 'Wine Lovers' Thursdays'.</p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Dumbo, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/water_street_restaurant_lounge/Location?oid=1132267">Water Street Restaurant & Lounge</a></h4>
+    <p class="desc">DUMBO's best kept secret. Doors open around 9 p.m. and stay open til late. No cover. Come early and enjoy dinner at the Water Street Restaurant. Food Service in the UnderWater Lounge goes until midnights. There's a full bar and waitress service, banquet and couch seating. Friday night specials are $6 cosmos, DJ Andre playing Disco, 80s and Top 40s all night for your listening pleasure.</p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Lower East Side, Manhattan
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/sapphire_lounge/Location?oid=1775170">Sapphire Lounge</a></h4>
+    <p class="desc">Championing DJ culture since 1992, Sapphire is an intimate friendly venue with a full bar, cabaret license, dance floor, lounge area, an art exhibition space that changes regularly and world class DJ appearances spinning a mix of music from house and electro to rock and roll, to hip hop, r&b, or salsa depending on the night. This is the place to dance the night away with steady beats, good drinks and daily events. Open 7 days a week 7pm to 4am. Available for private parties.</p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Prospect Heights, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/1_of_a_find/Location?oid=1775259">1 of a Find</a></h4>
+    <p class="desc">1 of a Find Vintage specializes in rare and designer vintage clothing and accessories. "1 of the best indie shops in Prospect Heights" - Time Out New York "A Top Pick for vintage clothing in NYC" - Black Book Magazine. Open daily.</p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Williamsburg, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/barking_lizards/Location?oid=2178291">Barking Lizards</a></h4>
+    <p class="desc"></p>
+  </div>
+  
+  <div class="storyItem">           
+    <h5>
+      CLASSIFIED DIRECTORY 
+      Williamsburg, Brooklyn
+    </h5>
+    <h4><a href="http://www.thelmagazine.com/newyork/gristle_tattoo_art_gallery/Location?oid=2247645">Gristle Tattoo+Art Gallery</a></h4>
+    <p class="desc">Gristle is a custom tattoo shop located in the heart of Williamsburg, Brooklyn, specializing in vegan ink tattoos and aftercare products.  The shop also functions as an art gallery, with works from artists from all over the world continuously on display and openings held every month.  Community events such as pet adoption events are also held regularly.</p>
+  </div>
+  
+</div>
+      </div><!-- end gridRightSidebarTop -->
+
+      <div id="gridAdSidebar">
+        
+      </div><!-- end gridAdSidebar -->
+
+      <div id="gridMiniSidebar">
+        
+      </div><!-- end gridMiniSidebar -->
+    </div><!-- end gridRightFrame -->
+    
+    <!-- Footer -->
+    <div id="gridFooter">
+      
+
+
+    <div id="FooterNavigation" class="GlobalFooter Home ">
+      <ul>
+  
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/" target="_self">
+      
+        Home
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/music/Section?oid=1133863" target="_self">
+      
+        Music
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/film/Section?oid=1133867" target="_self">
+      
+        Film
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/food-and-drink/Section?oid=1133868" target="_self">
+      
+        Food &amp; Drink
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/blogs/TheMeasure/" target="_self">
+      
+        The Measure
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/theater/Section?oid=1133875" target="_self">
+      
+        Theater
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/news-and-features/Section?oid=1142733" target="_self">
+      
+        News &amp; Features
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/art/Section?oid=1133874" target="_self">
+      
+        Art
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?narrowByDate=Today" target="_self">
+      
+        Event Listings
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/fashionville/Content?category=1134294" target="_self">
+      
+        Fashionville
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/sex-with-the-natural-redhead/Content?category=1134310" target="_self">
+      
+        Sex with the Natural Redhead
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/books/Section?oid=1133862" target="_self">
+      
+        Books
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143053&narrowByDate=Today" target="_self">
+      
+        Dance
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/fare-is-fare/Content?category=1133882" target="_self">
+      
+        Fare is Fair
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/tips-for-tips/Content?category=1133883" target="_self">
+      
+        Tips for Tips
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/EventSearch?eventSection=1143076&narrowByDate=Today" target="_self">
+      
+        Nightlife
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/horoscope/Content?category=1133899" target="_self">
+      
+        Horoscope
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/fiction/Content?category=1145870" target="_self">
+      
+        Fiction
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/LocationSearch?locationSection=1146236" target="_self">
+      
+        Neighborhood Directory
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/FreeStuff/Page" target="_self">
+      
+        Free Stuff
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://twitter.com/thelmagazine" target="_self">
+      
+        Twitter
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.facebook.com/pages/The-L-Magazine/10796376995?ref=ts" target="_self">
+      
+        Facebook
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/ContactUs/Page" target="_self">
+      
+        Contact
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/PrivacyPolicy/Page" target="_self">
+      
+        Privacy Policy
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/visitorsguide" target="_self">
+      
+        Check Out Food, Music and Arts in Other Cities
+      
+    </a>
+    
+    
+      <span>|</span>
+    
+  </li> 
+  
+
+  
+  <li class="">
+    <a href="http://www.thelmagazine.com/newyork/AdvertiseinBrooklyn/Page" target="_self">
+      
+        Advertise in Brooklyn
+      
+    </a>
+    
+    
+  </li> 
+  
+
+      </ul>
+    </div>
+  
+
+
+
+<div id="footerCopyright">
+  <p>&copy; 2013 <a href="http://www.thelmagazine.com/">The L Magazine</a>
+  <br>Website powered by <a href="http://foundation.gyrobase.com/" target="_blank">Foundation</a>
+  </p>
+</div>
+  <!-- Start Google Analytics -->
+  
+  
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2061618-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  
+
+  
+  <!-- End Google Analytics -->
+
+  <!-- Start Quantcast tag -->
+  <script type="text/javascript">
+    _qoptions={
+      qacct:"p-7apeS9pNVYMQo"
+    };
+  </script>
+  <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+  <noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-7apeS9pNVYMQo.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+  </noscript>
+  <!-- End Quantcast tag -->
+
+    </div><!-- end gridFooter -->
+
+  </div><!-- end gridMain -->
+</div><!-- end gridClamp -->
+
+<!-- Closer -->
+<div id="gridCloser">
+  
+</div><!-- end gridCloser -->
+
+  </body>
+</html>  
+
+
