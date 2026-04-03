@@ -132,7 +132,8 @@
       "WebFetch(domain:www.metro.us)",
       "WebFetch(domain:www.brooklynbowl.com)",
       "WebFetch(domain:www.tristateindie.com)",
-      "WebFetch(domain:vvstaging.villagevoice.com)"
+      "WebFetch(domain:vvstaging.villagevoice.com)",
+      "Bash(chmod +x /Users/fastdanny/Claude/northside/scripts/download-lmag-archive.sh)"
     ]
   }
 }
