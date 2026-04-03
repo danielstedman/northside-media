@@ -413,34 +413,112 @@ img {
 /* ===== Covers Carousel ===== */
 .covers-carousel {
     grid-column: 1 / -1;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
     padding: 16px 0;
-    scrollbar-width: none;
-}
-
-.covers-carousel::-webkit-scrollbar {
-    display: none;
 }
 
 .covers-track {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     width: max-content;
+    animation: scrollCovers 40s linear infinite;
+}
+
+.covers-track:hover {
+    animation-play-state: paused;
 }
 
 .covers-track img {
-    height: 280px;
+    height: 300px;
     width: auto;
     border-radius: 4px;
-    box-shadow: 0 4px 16px rgba(60, 52, 47, 0.12);
-    transition: transform 0.2s;
+    box-shadow: 0 6px 24px rgba(60, 52, 47, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .covers-track img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px rgba(60, 52, 47, 0.25);
 }
+
+@keyframes scrollCovers {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Cover Viewer Overlay */
+.cover-viewer {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.cover-viewer.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cover-viewer-img-wrap {
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-viewer-img-wrap img {
+    max-width: 100%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+}
+
+.cover-viewer-close {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 1;
+    transition: color 0.2s;
+    z-index: 1;
+}
+
+.cover-viewer-close:hover { color: #fff; }
+
+.cover-viewer-prev,
+.cover-viewer-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: color 0.2s;
+    z-index: 1;
+}
+
+.cover-viewer-prev { left: 16px; }
+.cover-viewer-next { right: 16px; }
+.cover-viewer-prev:hover,
+.cover-viewer-next:hover { color: #fff; }
 
 /* ===== Year by Year (expandable) ===== */
 .year-toggle {
