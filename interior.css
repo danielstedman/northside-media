@@ -79,58 +79,66 @@ body {
 
 .poster-year {
     max-width: 900px;
-    margin: 0 auto 80px;
-    padding: 0 32px;
+    margin: 0 auto 0;
+    padding: 60px 40px;
     text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.poster-year:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02);
 }
 
 .poster-year:last-child {
-    margin-bottom: 40px;
+    border-bottom: none;
 }
 
 .poster-year-header {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .poster-year-num {
     display: block;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 6px;
-    color: #c9a96e;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: rgba(201, 169, 110, 0.3);
     margin-bottom: 4px;
+    line-height: 1;
 }
 
 .poster-year-meta {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.35);
 }
 
 .poster-note {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.4);
-    max-width: 600px;
-    margin: 0 auto 24px;
-    line-height: 1.7;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 620px;
+    margin: 0 auto 28px;
+    line-height: 1.8;
 }
 
 .poster-names {
-    line-height: 1.2;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .poster-names span {
     display: inline;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .poster-names span::after {
-    content: " \00b7 ";
-    color: rgba(255, 255, 255, 0.2);
+    content: "  /  ";
+    color: rgba(255, 255, 255, 0.15);
+    font-weight: 300;
 }
 
 .poster-names span:last-child::after {
@@ -138,23 +146,47 @@ body {
 }
 
 .tier1 {
-    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-size: clamp(1.8rem, 4.5vw, 2.8rem);
     font-weight: 900;
     color: #fff;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.tier1::after {
+    content: "" !important;
 }
 
 .tier2 {
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.75);
+    font-size: clamp(0.85rem, 1.8vw, 1.1rem);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
 }
 
 .tier3 {
-    font-size: clamp(0.6rem, 1.2vw, 0.78rem);
+    font-size: clamp(0.62rem, 1vw, 0.72rem);
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.5);
     letter-spacing: 1.5px;
+}
+
+/* Visual break between tiers */
+.tier2:first-of-type {
+    margin-top: 8px;
+}
+
+.tier3:first-of-type {
+    display: inline;
+}
+
+/* Add a subtle gap before tier3 starts */
+.tier2 + .tier3::before {
+    content: "";
+    display: block;
+    height: 12px;
 }
 
 /* ================================================
