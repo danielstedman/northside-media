@@ -13,43 +13,7 @@ body {
     padding: 0 32px;
 }
 
-.back-link {
-    position: fixed;
-    top: 20px;
-    left: 24px;
-    z-index: 100;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 0.2s;
-}
-
-.back-link:hover {
-    color: #fff;
-}
-
-.interior-footer {
-    text-align: center;
-    padding: 40px 24px;
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.4);
-    background: #3c342f;
-}
-
-.interior-footer a {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-}
-
-.interior-footer a:hover {
-    color: #fff;
-}
+/* Shared nav overrides handled per page type */
 
 /* ================================================
    FESTIVAL PAGE — Poster Style
@@ -202,12 +166,38 @@ body {
     color: #2a2521;
 }
 
-.tt-page .back-link {
-    color: rgba(60, 52, 47, 0.4);
+.tt-page .nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
 }
 
-.tt-page .back-link:hover {
+.tt-page .nav-logo,
+.tt-page .nav-menu a {
     color: #3c342f;
+}
+
+.tt-page .nav-menu a:hover {
+    color: #c9a96e;
+}
+
+.tt-photos {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 0;
+    background: #3c342f;
+}
+
+.tt-photos::-webkit-scrollbar {
+    display: none;
+}
+
+.tt-photos img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 .tt-hero {
@@ -312,6 +302,20 @@ body {
     color: #2a2521;
 }
 
+.tt-event-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #3c342f;
+    margin: 20px 0 6px;
+}
+
+.tt-venues {
+    font-size: 0.75rem;
+    color: #8a7a6e;
+    font-style: italic;
+    margin-top: 16px;
+}
+
 /* Tastys */
 .tt-tastys {
     max-width: 680px;
@@ -362,14 +366,7 @@ body {
     color: #3c342f;
 }
 
-.tt-page .interior-footer {
-    background: #f7f4f0;
-    color: #8a7a6e;
-}
-
-.tt-page .interior-footer a {
-    color: #5a4d44;
-}
+/* Taste Talks uses the shared .footer from styles.css */
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
