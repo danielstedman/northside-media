@@ -1,0 +1,332 @@
+/* ================================================
+   NORTHSIDE FESTIVAL — LINEUP PAGE
+   ================================================ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0e0c0b;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Nav */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(14, 12, 11, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+.nav-menu a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover { color: #fff; }
+
+/* Hero */
+.festival-hero {
+    position: relative;
+    height: 60vh;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.festival-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center 35%;
+    filter: grayscale(80%) brightness(0.25) contrast(1.2);
+}
+
+.festival-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(14,12,11,0.3) 0%, rgba(14,12,11,0.8) 100%);
+}
+
+.festival-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.festival-hero-content h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 900;
+    letter-spacing: 12px;
+    line-height: 0.95;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.festival-hero-content p {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 2;
+}
+
+/* ===== POSTER SIDEBARS ===== */
+.festival-body-wrapper {
+    position: relative;
+}
+
+.poster-sidebar {
+    position: fixed;
+    top: 60px;
+    width: 120px;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.12;
+    pointer-events: none;
+}
+
+.poster-sidebar.left { left: 0; }
+.poster-sidebar.right { right: 0; }
+
+.poster-sidebar-track {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    animation: scrollPosters 120s linear infinite;
+}
+
+.poster-sidebar.right .poster-sidebar-track {
+    animation-direction: reverse;
+}
+
+.poster-sidebar img {
+    width: 100%;
+    display: block;
+}
+
+@keyframes scrollPosters {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+
+@media (max-width: 1100px) {
+    .poster-sidebar { display: none; }
+}
+
+/* ===== LINEUP WALL ===== */
+.festival-lineup-wall {
+    padding: 0 0 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.poster-year {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 48px;
+    text-align: center;
+    position: relative;
+}
+
+.poster-year + .poster-year {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Year number — BIG background watermark */
+.poster-year-num {
+    display: block;
+    font-size: clamp(5rem, 14vw, 9rem);
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: rgba(255, 255, 255, 0.04);
+    line-height: 1;
+    margin-bottom: -10px;
+}
+
+/* Date & info — bright and clear */
+.poster-year-meta {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d4a84b;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Context note — readable, not faint */
+.poster-note {
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+
+/* Band names container */
+.poster-names {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+/* ===== TIER 1 — HEADLINERS ===== */
+.tier1 {
+    display: block;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+/* ===== TIER 2 — MID-TIER ===== */
+.tier2 {
+    display: inline;
+    font-size: clamp(0.9rem, 1.8vw, 1.15rem);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.85);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2.2;
+}
+
+.tier2::after {
+    content: " \2022 ";
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 300;
+    margin: 0 2px;
+}
+
+/* Remove bullet after last tier2 before tier3 gap */
+.tier2:last-of-type::after {
+    content: "";
+}
+
+/* ===== GAP between tier2 and tier3 ===== */
+.tier2 + .tier3::before {
+    content: "";
+    display: block;
+    height: 24px;
+}
+
+/* ===== TIER 3 — ALL THE BANDS ===== */
+.tier3 {
+    display: inline;
+    font-size: clamp(0.58rem, 0.95vw, 0.7rem);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 2.4;
+}
+
+.tier3::after {
+    content: " \2022 ";
+    color: rgba(255, 255, 255, 0.1);
+    margin: 0 1px;
+}
+
+.tier3:last-child::after {
+    content: "";
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #0e0c0b;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 48px 32px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-brand {
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-founders {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .festival-hero {
+        height: 45vh;
+        min-height: 300px;
+    }
+
+    .poster-year {
+        padding: 56px 20px;
+    }
+
+    .poster-year-num {
+        font-size: 4rem;
+    }
+
+    .nav-menu {
+        gap: 16px;
+    }
+}

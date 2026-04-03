@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="interior.css?v=3">
+    
+    <link rel="stylesheet" href="festival.css">
 </head>
 <body class="festival-page">
 
@@ -32,6 +32,13 @@
             <p>Brooklyn's Discovery Festival · 2009–2018<br>2266 bands · 50+ venues · 100,000 attendees</p>
         </div>
     </header>
+
+    <div class="poster-sidebar left">
+        <div class="poster-sidebar-track" id="poster-sidebar-left"></div>
+    </div>
+    <div class="poster-sidebar right">
+        <div class="poster-sidebar-track" id="poster-sidebar-right"></div>
+    </div>
 
     <div class="festival-lineup-wall">
 
@@ -156,6 +163,67 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    // Populate poster sidebars with random posters
+    const posters = [
+        "images/posters/Northside-Festival-Brooklyn-2015-Poster.jpg",
+        "images/posters/AD_Northside_2017_Final_Med-785x1016.jpg",
+        "images/posters/northside_final_11x17.jpg",
+        "images/posters/NS15_POSTER_East_River_Ferry4-660x1037.jpg",
+        "images/posters/northsideflyer1200x1600600.jpg",
+        "images/posters/NMF_2013_Poster_WEB.jpg",
+        "images/posters/Northside_of_Eden_Fest_NYC-480x661.jpg",
+        "images/posters/northsideposter1.jpg",
+        "images/posters/ns-posterD1.jpg",
+        "images/posters/Northside_POSTERR.png",
+        "images/posters/Poster-Unit-J.jpg",
+        "images/posters/BestCoast_TourPoster_11x17_800.png",
+        "images/posters/northside-2011.jpg",
+        "images/posters/sheaposter.jpg",
+        "images/posters/rtjsbnp.jpg",
+        "images/posters/northside-initial-lineup.jpg",
+        "images/posters/dirty-projectors-northside-show.jpg",
+        "images/posters/miguel_showannouncement_social.png",
+        "images/posters/NS18_LizPhair_draft2.png",
+        "images/posters/northside-music-fest-1024x1024.jpg",
+        "images/posters/R_NF_G.001-1800x1800.jpeg",
+        "images/posters/Northside15Flyer_700.jpg",
+        "images/posters/northside2014.jpg",
+        "images/posters/e0b98b77-485a-421c-b4d2-19dcadc4508c.jpg",
+        "images/posters/northsideMSL_710.jpg",
+        "images/posters/PitchforkNorthside_Instagram.jpg",
+        "images/posters/BTRNORTHSIDE2018-v4.png",
+        "images/posters/beertree3-690x1024.jpg",
+        "images/posters/cantorabowlpostersmall-580.jpg",
+        "images/posters/iceage-prurient-stereogum-s.jpg"
+    ];
+
+    function shuffle(a) {
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+    function fillSidebar(id, imgs) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        // Double the images for seamless scroll
+        const doubled = [...imgs, ...imgs];
+        doubled.forEach(src => {
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = '';
+            img.loading = 'lazy';
+            el.appendChild(img);
+        });
+    }
+
+    fillSidebar('poster-sidebar-left', shuffle([...posters]));
+    fillSidebar('poster-sidebar-right', shuffle([...posters]));
+    </script>
 
 </body>
 </html>
