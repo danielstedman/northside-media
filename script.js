@@ -243,32 +243,78 @@ posterToggleBtn.addEventListener('click', () => {
     }
 });
 
-// Lightbox
+// Lightbox with arrow navigation
 const lightbox = document.createElement('div');
 lightbox.className = 'lightbox';
-lightbox.innerHTML = '<span class="lightbox-close">&times;</span><img src="" alt="Poster">';
+lightbox.innerHTML = '<span class="lightbox-close">&times;</span><span class="lightbox-prev">&larr;</span><span class="lightbox-next">&rarr;</span><img src="" alt="">';
 document.body.appendChild(lightbox);
 
 const lightboxImg = lightbox.querySelector('img');
 const lightboxClose = lightbox.querySelector('.lightbox-close');
+const lightboxPrev = lightbox.querySelector('.lightbox-prev');
+const lightboxNext = lightbox.querySelector('.lightbox-next');
 
-function openLightbox(src) {
+let lightboxGroup = []; // current group of images
+let lightboxIndex = 0;
+
+function openLightbox(src, group) {
     lightboxImg.src = src;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    if (group && group.length > 1) {
+        lightboxGroup = group;
+        lightboxIndex = group.indexOf(src);
+        if (lightboxIndex === -1) lightboxIndex = 0;
+        lightboxPrev.style.display = 'block';
+        lightboxNext.style.display = 'block';
+    } else {
+        lightboxGroup = [];
+        lightboxPrev.style.display = 'none';
+        lightboxNext.style.display = 'none';
+    }
 }
 
 function closeLightbox() {
     lightbox.classList.remove('active');
     document.body.style.overflow = '';
+    lightboxGroup = [];
+}
+
+function lightboxGo(dir) {
+    if (lightboxGroup.length === 0) return;
+    lightboxIndex = (lightboxIndex + dir + lightboxGroup.length) % lightboxGroup.length;
+    lightboxImg.src = lightboxGroup[lightboxIndex];
 }
 
 lightbox.addEventListener('click', closeLightbox);
 lightboxClose.addEventListener('click', closeLightbox);
 lightboxImg.addEventListener('click', e => e.stopPropagation());
+lightboxPrev.addEventListener('click', e => { e.stopPropagation(); lightboxGo(-1); });
+lightboxNext.addEventListener('click', e => { e.stopPropagation(); lightboxGo(1); });
 
 document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('active')) return;
     if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') lightboxGo(-1);
+    if (e.key === 'ArrowRight') lightboxGo(1);
+});
+
+// Set up cover carousels with grouped navigation
+document.querySelectorAll('.covers-carousel').forEach(carousel => {
+    const imgs = carousel.querySelectorAll('.covers-track img');
+    // Build unique src list (carousels duplicate images for looping)
+    const seen = new Set();
+    const srcs = [];
+    imgs.forEach(img => {
+        if (!seen.has(img.src)) {
+            seen.add(img.src);
+            srcs.push(img.src);
+        }
+    });
+    imgs.forEach(img => {
+        img.addEventListener('click', () => openLightbox(img.src, srcs));
+    });
 });
 
 // Photo Library
@@ -381,10 +427,7 @@ if (photoLibToggle) {
     });
 }
 
-// Cover clicks — use the existing lightbox
-document.querySelectorAll('.covers-track img').forEach(img => {
-    img.addEventListener('click', () => openLightbox(img.src));
-});
+// Cover carousel clicks are handled by the lightbox setup above
 
 // Scroll-triggered fade-in
 const observer = new IntersectionObserver((entries) => {
