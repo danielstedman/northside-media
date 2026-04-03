@@ -381,68 +381,10 @@ if (photoLibToggle) {
     });
 }
 
-// Cover Viewer
-const coverSrcs = [
-    "images/bkmag/BK12_00+COVER.jpg",
-    "images/bkmag/Solange-Brooklyn-Magazine-Cover.png",
-    "images/bkmag/Emily-Cover.jpg",
-    "images/bkmag/Olivia-Cover.png",
-    "images/bkmag/Theophilus-Cover.png",
-    "images/bkmag/Alek-Wek.png",
-    "images/bkmag/cover_J.jpg",
-    "images/bkmag/cover.jpg"
-];
-
-const coverViewer = document.getElementById('cover-viewer');
-const coverViewerImg = document.getElementById('cover-viewer-img');
-const coverViewerClose = document.getElementById('cover-viewer-close');
-const coverViewerPrev = document.getElementById('cover-viewer-prev');
-const coverViewerNext = document.getElementById('cover-viewer-next');
-let currentCoverIndex = 0;
-
-if (coverViewer) {
-    // Click cover to open viewer
-    document.querySelectorAll('.covers-track img').forEach(img => {
-        img.addEventListener('click', () => {
-            currentCoverIndex = parseInt(img.dataset.index) || 0;
-            coverViewerImg.src = coverSrcs[currentCoverIndex];
-            coverViewer.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-    });
-
-    // Navigation
-    coverViewerPrev.addEventListener('click', (e) => {
-        e.stopPropagation();
-        currentCoverIndex = (currentCoverIndex - 1 + coverSrcs.length) % coverSrcs.length;
-        coverViewerImg.src = coverSrcs[currentCoverIndex];
-    });
-
-    coverViewerNext.addEventListener('click', (e) => {
-        e.stopPropagation();
-        currentCoverIndex = (currentCoverIndex + 1) % coverSrcs.length;
-        coverViewerImg.src = coverSrcs[currentCoverIndex];
-    });
-
-    // Close
-    function closeCoverViewer() {
-        coverViewer.classList.remove('active');
-        document.body.style.overflow = '';
-    }
-
-    coverViewerClose.addEventListener('click', closeCoverViewer);
-    coverViewer.addEventListener('click', (e) => {
-        if (e.target === coverViewer) closeCoverViewer();
-    });
-
-    // Keyboard nav
-    document.addEventListener('keydown', (e) => {
-        if (!coverViewer.classList.contains('active')) return;
-        if (e.key === 'Escape') closeCoverViewer();
-        if (e.key === 'ArrowLeft') coverViewerPrev.click();
-        if (e.key === 'ArrowRight') coverViewerNext.click();
-    });
-}
+// Cover clicks — use the existing lightbox
+document.querySelectorAll('.covers-track img').forEach(img => {
+    img.addEventListener('click', () => openLightbox(img.src));
+});
 
 // Scroll-triggered fade-in
 const observer = new IntersectionObserver((entries) => {
